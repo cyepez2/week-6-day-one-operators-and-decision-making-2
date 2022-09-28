@@ -142,7 +142,13 @@ print(mybool)
 
 
 ########################################decision making in python#####################################
-
+# lesson
+#if 5 == 2:
+  #print("it is correct")
+#else:
+#print("it is not correct")
+pet = 'dog'
+if pet = 'cat':
 
 
 # Decision Making Practice #1
