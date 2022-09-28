@@ -79,13 +79,14 @@ print(mybool)
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
-
+num1 = 64*3
 # Inside num1, store the result of 64 x 3
 
 # Inside num2, store the result of 24 x 8
-
+num2 = 24*8
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-
+mybool = num1 == num2
+print(mybool)
 
 
 
@@ -134,8 +135,9 @@ print(mybool)
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
-
-
+shoddyquote = "When something is important enough, you do it even if the odds are against you"
+mybool = "success" and "technology" not in shoddyquote
+print(mybool)
 
 
 
